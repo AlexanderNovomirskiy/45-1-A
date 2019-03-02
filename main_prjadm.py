@@ -10,7 +10,7 @@ if __name__ == "__main__":
     #
     # Преобразование XDB -> RAM -> DBD -> RAM -> XDB1
     #
-    file = 'материалы/prjadm.xdb'
+    file = 'material/prjadm.xdb'
     description = 'Программа преобразования данных файла "%s".' % file
     parser = argparse.ArgumentParser(description=description)
 
